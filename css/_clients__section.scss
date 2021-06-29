@@ -1,0 +1,42 @@
+.clients__area{
+    background: #011336;
+}
+
+.clients__text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 160px;
+
+    p{
+        font-size: 18px;
+        line-height: 38px;
+        /* identical to box height, or 211% */
+
+        text-align: center;
+        letter-spacing: -0.3px;
+
+        color: #FFFFFF;
+
+        opacity: 0.6;
+    }
+}
+
+.clients__items{
+
+    img{
+        filter: opacity(0.5);
+    }
+}
+
+.clientsSection__wrpr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clientsItems__wrpr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}

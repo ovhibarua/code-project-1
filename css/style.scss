@@ -1,0 +1,848 @@
+@import"imports";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans',
+        sans-serif;
+    outline: none;
+}
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+
+    letter-spacing: -1px;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+    color: #0F2137;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 52px;
+    /* or 153% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #0F2137;
+}
+
+.primary__btn {
+    background: #2C50EE;
+    border-radius: 8px;
+}
+
+.clients__area {
+    position: relative;
+    top: -1px;
+}
+
+.about__area {
+    position: relative;
+    top: -3px;
+}
+
+.features__area {
+    position: relative;
+    top: -0px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1920px) {
+    .shape__background {
+        height: 230px;
+        top: 2px;
+    }
+
+    .overlay__vector {
+            top: 485px;
+            left: 81%;
+    }
+
+    .overlay2__vector {
+        top: 496px;
+        left: 83%;
+    }
+
+    .about__item p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .featuresImg2__wrpr,
+    .feauresText2__wrpr {
+        height: 800px;
+    }
+
+    .service__area {
+        padding-top: 218px;
+    }
+
+    .dotted::after {
+        width: 250%;
+    }
+
+    .pricing__box {
+        width: 98%;
+    }
+
+    .blog__img img {
+        width: 100%;
+    }
+
+    .clients__area {
+        top: -2px;
+    }
+
+    .featuresImg2__wrpr {
+        justify-content: flex-start;
+    }
+
+    .featuresImg__wrpr {
+        justify-content: flex-end;
+    }
+}
+
+@media all and (max-width: 1399px) {
+
+    .overlay__vector {
+        top: 480px;
+        left: 87%;
+    }
+
+    .overlay2__vector {
+        top: 430px;
+        left: 90%;
+    }
+
+    .about__item p {
+        margin-left: inherit;
+        margin-right: inherit;
+        width: inherit;
+    }
+
+    .featuresImg2__wrpr,
+    .feauresText2__wrpr {
+        height: 700px;
+    }
+
+    .service__area {
+        padding-top: 115px;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .overlay__vector {
+        top: 460px;
+        left: 86%;
+    }
+
+    .overlay2__vector {
+        top: 400px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .clients__area {
+        top: -2px;
+    }
+
+    .heroBnnr__text p {
+        width: 80%;
+    }
+
+    .about__item p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    .aboutItem__wrpr {
+        height: 450px;
+    }
+
+    .arrow__shape {
+        top: 132%;
+        left: 135%;
+        transform: rotate(127deg);
+    }
+
+    .arrow__shape2 {
+        top: 16%;
+        left: -140px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .dashboard__title h3 {
+        width: 80%;
+    }
+
+    .dashboardImg__wrpr {
+        height: 430px;
+    }
+
+    .service__area {
+        padding-top: 130px;
+    }
+
+    .serviveItems__wrpr {
+        height: 230px;
+    }
+
+    .service__items {
+        height: 215px;
+    }
+
+    .testimonailTitle__wrpr {
+        height: 250px;
+    }
+
+    .testimonial__titleText p {
+        width: 65%;
+    }
+
+    .testimonial__comment {
+        padding: 15px 30px;
+        width: 95%;
+    }
+
+    .testimonialComment__wrpr {
+        height: 435px;
+    }
+
+    .pricing__box {
+        padding: 30px;
+    }
+
+    .footer__nav ul li {
+        padding: 0px 10px;
+    }
+
+    .footer__logoLink {
+        flex-direction: column;
+        height: 70px;
+    }
+
+    .menu__list li {
+        margin-left: 1px;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+    .overlay__vector {
+        top: 892px;
+        left: 80%;
+    }
+
+    .overlay2__vector {
+        top: 315px;
+        left: 90%;
+    }
+
+    .humburger__menu {
+        color: white;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    #custom__toggler {
+        border: none;
+        box-shadow: none;
+    }
+
+    .navigation li {
+        padding: 10px 10px;
+    }
+
+    .header__btn {
+        width: 16%;
+    }
+
+    .haeder__login {
+        margin-right: 0px;
+    }
+
+    form {
+        padding-left: 0px;
+        height: 90px;
+        justify-content: space-between;
+    }
+
+    .menu__list {
+        top: 50%;
+        left: 90px;
+    }
+
+    .menu__bar:hover .menu__list {
+        top: 30%;
+    }
+
+    .heroBnnr__wrpr {
+        height: 580px;
+    }
+
+    .heroBnnr__wrpr img {
+        display: block;
+    }
+
+    .header__wrpr {
+        background-image: inherit;
+    }
+
+    .arrow__shape,
+    .arrow__shape2 {
+        display: none;
+    }
+
+    .aboutItem__wrpr {
+        height: 420px;
+    }
+
+    .clients__text p {
+        align-self: center;
+    }
+
+    .overlay__img {
+        position: inherit;
+    }
+
+    .feauresText__wrpr {
+        height: 400px;
+    }
+
+    .featuresImg2__wrpr {
+        height: 590px;
+    }
+
+    .feauresText2__wrpr {
+        height: 440px;
+    }
+
+    .features__text2 {
+        margin-left: 0px;
+    }
+
+    .dashboard__area {
+        margin-top: 100px;
+    }
+
+    .dashboard__title h3 {
+        width: 100%;
+    }
+
+    .dashboardImg__wrpr {
+        height: 330px;
+    }
+
+    #heroBnnr__wrpr2 {
+        height: 450px;
+    }
+
+    .dotted::after {
+        width: 112%;
+        top: 53px;
+    }
+
+    .service__text {
+        margin-left: 0px;
+    }
+
+    .service__logo {
+        padding-left: 15px;
+    }
+
+    .service__area {
+        padding-top: 100px;
+    }
+
+    .service__items {
+        height: 150px;
+    }
+
+    .serviveItems__wrpr {
+        height: 200px;
+    }
+
+    #service__logoid {
+        width: 30%;
+    }
+
+    .testimonial__titleText h3 {
+        width: 90%;
+    }
+
+    .testimonial__titleText p {
+        width: 67%;
+        margin-bottom: 35px;
+    }
+
+    .testimonialComment__wrpr {
+        height: 310px;
+        justify-content: center;
+    }
+
+    .testimonialComment__wrpr2 {
+        justify-content: center;
+        height: 330px;
+    }
+
+    #carousel {
+        margin-bottom: -22px;
+    }
+
+    .pricingBox__wrpr {
+        height: 405px;
+    }
+
+    .pricingTitle__wrpr {
+        align-items: center;
+        height: 155px;
+    }
+
+    .pricing__wrpr {
+        height: auto;
+    }
+
+    .blog__img img {
+        width: 100%;
+    }
+
+    .blogTitle__wrpr {
+        height: 100px;
+    }
+
+
+    .blogCard__wrpr {
+        align-items: flex-end;
+        height: 635px;
+    }
+
+    .joinText__wrpr {
+        justify-content: center;
+        height: 200px;
+    }
+
+    .joinbtn__wrpr {
+        justify-content: center;
+        height: 100px;
+    }
+
+    .footer__logoLink {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .footer__nav ul li {
+        padding: 0px 7px;
+    }
+
+    .footerLogoLink__wrpr,
+    .footerNav__wrpr,
+    .footerSocial__wrpr {
+        height: 80px;
+    }
+
+    .clients__area {
+        top: -1px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .header__btn {
+        width: 22%;
+    }
+
+    .clients__area {
+        top: -2px;
+    }
+
+    .heroBnnr__wrpr {
+        height: 500px;
+    }
+
+    .overlay__vector {
+        display: none;
+    }
+
+    .feauresText__wrpr {
+        height: 350px;
+    }
+
+    .featuresImg__wrpr {
+        height: 600px;
+    }
+
+    .feauresText2__wrpr {
+        height: 300px;
+    }
+
+    .featuresImg2__wrpr {
+        height: 550px;
+    }
+
+    .overlay2__vector {
+        display: none;
+    }
+
+    .dashboard__area {
+        margin-top: 40px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    .dashborad__logo {
+        padding: 13px;
+        width: 100px;
+    }
+
+    .dashborad__logo img {
+        width: 60%;
+    }
+
+    .dashboardItems__wrpr {
+        height: 250px;
+    }
+
+    .dashboard__items span {
+        font-size: 15px;
+    }
+
+    .dotted::after {
+        top: 44px;
+    }
+
+    .dashboardImg__wrpr {
+        height: 245px;
+    }
+
+    .service__items {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service__logo {
+        padding-left: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service__items {
+        height: 225px;
+    }
+
+    .serviveItems__wrpr {
+        height: 230px;
+    }
+
+    #service__logoid {
+        width: 100%;
+    }
+
+    .service__area {
+        padding-top: 75px;
+    }
+
+    .testimonialComment__wrpr {
+        height: 320px;
+    }
+
+    .blogCard__wrpr {
+        height: 500px;
+    }
+
+    .join__text p {
+        text-align: center;
+    }
+
+    .join__text h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .joinbtn__wrpr {
+        justify-content: center;
+    }
+
+    .footer__logoLink {
+        justify-content: center;
+    }
+
+    .footerLogoLink__wrpr,
+    .footerNav__wrpr,
+    .footerSocial__wrpr {
+        height: 70px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .heroBnnr__email input[type="email"] {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 575px) and (min-width:350px) {
+    #heroBnnr__wrpr2 {
+        height: 665px;
+    }
+
+    .header__btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header__form {
+        height: 100px;
+    }
+
+    .heroBnnr__wrpr {
+        height: 400px;
+    }
+
+    .about__area {
+        top: -4px;
+    }
+
+
+    .overlay__vector {
+        top: 175px;
+        left: 89%;
+    }
+
+    .feauresText__wrpr {
+        height: 400px;
+    }
+
+    .featuresImg__wrpr {
+        height: 400px;
+    }
+
+    .features__text2 {
+        text-align: center;
+    }
+
+    .feauresText2__wrpr {
+        height: 400px;
+    }
+
+    .featuresImg2__wrpr {
+        height: 350px;
+    }
+
+    .overlay2__vector {
+        top: 154px;
+        left: 86%;
+    }
+
+    .features__text {
+        text-align: center;
+    }
+
+    .features__text p,
+    .features__text2 p {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .dashborad__logo {
+        width: 70px;
+    }
+
+    .dotted::after {
+        top: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .dashboard__items span {
+        font-size: 9px;
+    }
+
+    .dashboardItems__wrpr {
+        height: 200px;
+    }
+
+    .dashboardImg__wrpr {
+        height: 155px;
+    }
+
+    .service__items {
+        height: 265px;
+    }
+
+    .serviveItems__wrpr {
+        height: 285px;
+    }
+
+    .service__area {
+        padding-top: 70px;
+    }
+
+    .testimonailTitle__wrpr {
+        height: 330px;
+    }
+
+    .testimonial__comment {
+        padding: 15px 15px;
+        height: 305px;
+    }
+
+    .client__comnt p {
+        font-size: 14px;
+    }
+
+    .pricing__box {
+        padding: 15px;
+        height: 300px;
+    }
+
+    .pricing__list ul {
+        padding: 15px 1px;
+    }
+
+    .pricing__list ul li {
+        font-size: 13px;
+    }
+
+    .pricing__list ul li img {
+        margin-right: 5px;
+    }
+
+    .pricing__box h4 {
+        margin-bottom: 25px;
+    }
+
+    .pricingTitle__wrpr {
+        height: 100px;
+    }
+
+    .pricingBox__wrpr {
+        height: 320px;
+    }
+
+    .pricing__wrpr {
+        height: auto;
+    }
+
+    .blogCard__wrpr {
+        height: 450px;
+    }
+
+    .joinText__wrpr {
+        height: 200px;
+    }
+
+    .footer__logoLink {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLogoLink__wrpr,
+    .footerNav__wrpr,
+    .footerSocial__wrpr {
+        height: 85px;
+    }
+
+    .footer__nav ul {
+        text-align: center;
+    }
+
+    .footer__nav ul li {
+        padding: 0px 6px;
+    }
+}

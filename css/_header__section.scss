@@ -1,0 +1,161 @@
+.header__area {
+    background: #011336;
+}
+
+
+.center {
+    padding: 30px 0px !important;
+}
+
+.navigation {
+    position: relative;
+    top: 3px;
+}
+
+.navigation li {
+    padding: 0px 15px;
+}
+
+.navigation li a i {
+    position: relative;
+    top: -3px;
+}
+
+.navigation li a:hover {
+    color: #e0e0e0;
+    transition: 0.3s;
+}
+
+.haeder__login {
+    line-height: 38px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.haeder__login:hover {
+    color: #e0e0e0;
+}
+
+.header__btn {
+    line-height: 38px;
+    padding: 0px 22px;
+    transition: 0.3s;
+}
+
+.header__btn:hover {
+    background: #e9ecef;
+    color: #2C50EE;
+}
+
+.heroBnnr__text {
+
+    h1 {
+        width: 87%;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        letter-spacing: -0.3px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        width: 66%;
+        margin-bottom: 20px;
+    }
+}
+
+.heroBnnr__email {
+
+    input[type="email"] {
+        background: #120136;
+        border: 1.5px solid #FFFFFF;
+        border-radius: 8px;
+        padding: 12px 20px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        margin-right: 5px;
+        width: 54%;
+    }
+
+    input[type="submit"] {
+        padding: 15px 22px;
+        border: none;
+        color: white;
+        background: #2C50EE;
+        font-size: 15px;
+        font-weight: 500;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background: white;
+        color: #2C50EE;
+    }
+}
+
+.heroBnnr__wrpr {
+    display: flex;
+    align-items: center;
+    height: 705px;
+}
+
+.header__wrpr {
+    background-repeat: no-repeat;
+    background-image: url('/img/dashboard.png');
+}
+
+.heroBnnr__wrpr img {
+    display: none;
+}
+
+.menu__bar {
+    position: relative;
+}
+
+.menu__list {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 130%;
+    left: -53px;
+    background: white;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 1px 15px -4px #000000;
+
+    li {
+        display: block;
+        text-align: left;
+        padding: 5px 15px;
+        transition: 0.3s;
+    }
+
+    a {
+        color: #6c757d;
+        transition: 0.3s;
+    }
+}
+
+.menu__list li:hover {
+    background: #e9ecef;
+}
+
+.menu__list a:hover {
+    color: #6c757d !important;
+    margin-left: 5px;
+}
+
+.menu__bar:hover .menu__list {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.left_mr{
+    margin-right: 40px !important;
+}

@@ -1,0 +1,13 @@
+1. header__section
+   --> headerTop__navigation
+   --> headerBottom__heroBanner
+2. clients__section
+3. about__section
+4. features__section
+5. dashboard__section
+6.  service__section
+7. testmonial__section
+8. pricing__section
+9. blog__section
+10. join__section
+11. footer__section

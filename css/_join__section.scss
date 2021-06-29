@@ -1,0 +1,49 @@
+.join__wrpr {
+    
+}
+
+.joinText__wrpr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+        height: 250px;
+
+}
+
+.joinbtn__wrpr {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 250px;
+}
+
+.join__text {
+
+    h3 {
+        color: #0F2137;
+        font-size: 30px;
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 35px;
+        /* identical to box height, or 194% */
+
+        letter-spacing: 0.1px;
+
+        color: #0F2137;
+
+        opacity: 0.7;
+    }
+}
+
+.JoinBtn {
+    padding: 19px 29px;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.JoinBtn:hover {
+    box-shadow: 0 0 15px -2px #2C50EE;
+}
